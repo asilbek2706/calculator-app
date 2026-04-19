@@ -26,12 +26,14 @@ body {
   font-size: 64px;
   color: var(--primary-number-color);
   letter-spacing: 5px;
+  height: 66px;
 }
 
 .secondary__number {
   font-size: 32px;
   color: var(--secondary-number-color);
   letter-spacing: 5px;
+  height: 33px;
 }
 
 .buttons {
@@ -63,4 +65,12 @@ body {
   height: 100%;
   box-shadow: 9px 9px 16px 0 rgba(0, 0, 0, 0.2);
   border-radius: 16px;
+}
+
+.delete-icon {
+  width: 42px;
+  height: 42px;
+  text-align: center;
+  margin: 5px auto 0;
+  color: var(--operator-color);
 }
